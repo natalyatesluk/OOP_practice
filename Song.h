@@ -26,6 +26,6 @@ class Song
 		~Song() { id_s--; }
 		friend istream& operator>>(istream& is, Song& song);
 		friend ostream& operator<<(ostream& os, Song& song);
-
+		friend bool operator==(Song& song1, Song song2);
 };
 

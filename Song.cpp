@@ -50,3 +50,12 @@ ostream& operator<<(ostream& os, Song& song)
 
 	return os;
 }
+bool operator==(Song& song1, Song song2)
+{
+	if (song1.name == song2.name && song2.artist == song1.artist && song1.genre == song2.genre &&
+		song1.album == song2.album && song2.writer == song1.writer && song1.lng == song2.lng &&
+		song1.year == song2.year && song2.time == song1.time)
+		return true;
+	else
+		return false;
+}
