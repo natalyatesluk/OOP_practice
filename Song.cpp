@@ -36,3 +36,17 @@ istream& operator>>(istream& is, Song& song)
 
 	return is;
 }
+ostream& operator<<(ostream& os, Song& song)
+{
+	os << "Track number " << song.id << endl;
+	os << "Name: " << song.name << endl;
+	os << "Artist: " << song.artist << endl;
+	os << "Album: " << song.album << endl;
+	os << "Gener: " << song.genre << endl;
+	os << "Writer: " << song.writer << endl;
+	os << "Language: " << song.lng << endl;
+	os << "Release yeare: " << song.year << endl;
+	os << "Track duration: " << song.time << endl << endl;
+
+	return os;
+}

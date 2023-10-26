@@ -25,6 +25,7 @@ class Song
 		Song(const Song& other);
 		~Song() { id_s--; }
 		friend istream& operator>>(istream& is, Song& song);
+		friend ostream& operator<<(ostream& os, Song& song);
 
 };
 
