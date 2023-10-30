@@ -128,10 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Audiobook.h" />
+    <ClInclude Include="Base.h" />
     <ClInclude Include="Song.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Audiobook.cpp" />
+    <ClCompile Include="Base.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Song.cpp" />
   </ItemGroup>
