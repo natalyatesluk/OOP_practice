@@ -3,8 +3,11 @@
 
 int main()
 {
-	Audiobook object1;
+	Song song; 
+	cin >> song;
+	Audiobook book;
+	cin >> book;
 
-	cin >> object1;
-	cout << object1;
+	cout << song; 
+	cout << book;
 }
