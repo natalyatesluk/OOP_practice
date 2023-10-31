@@ -8,6 +8,20 @@ Audiobook::Audiobook(Audiobook& book) :BaseSound(book)
 	this->format = book.format;
 }
 
+void Audiobook::play()
+{
+	cout << "<----- Play audiobook ----->";
+}
+
+void Audiobook::ShowDate()
+{
+	BaseSound::ShowDate();
+	cout << "Publisher: " << publisher << endl;
+	cout << "Price: " << price << "hrn" << endl;
+	cout << "Format: " << format << endl << endl;
+}
+
+
 istream& operator>>(istream& is, Audiobook& book)
 {
 	BaseSound& base=book;

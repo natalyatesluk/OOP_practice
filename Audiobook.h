@@ -14,6 +14,8 @@ public:
 	Audiobook(Audiobook& book);
 	friend istream& operator>>(istream& is, Audiobook& book);
 	friend ostream& operator<<(ostream& os, Audiobook& book);
+	void play() override;
+	void ShowDate() override;
 };
 
 

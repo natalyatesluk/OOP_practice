@@ -19,5 +19,8 @@ class Song:public BaseSound
 		~Song() { }
 		friend istream& operator>>(istream& is, Song& song);
 		friend ostream& operator<<(ostream& os, Song& song);
+
+		void play() override;
+		void ShowDate() override;
 };
 

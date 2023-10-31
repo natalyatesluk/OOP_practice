@@ -22,5 +22,7 @@ public:
 
 	friend istream& operator>>(istream& is, BaseSound& book);
 	friend ostream& operator<<(ostream& os, BaseSound& book);
+	virtual void play()=0;
+	virtual void ShowDate();
 };
 

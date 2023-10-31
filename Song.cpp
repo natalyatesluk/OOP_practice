@@ -8,6 +8,18 @@ Song::Song(const Song& other):BaseSound(other)
 	this->writer = other.writer;
 	this->lng = other.lng;
 }
+void Song::play()
+{
+	cout << "<----- Play song ----->";
+}
+void Song::ShowDate()
+{
+	BaseSound::ShowDate();
+	cout << "Album: " << album << endl;
+	cout << "Gener: " << genre << endl;
+	cout << "Writer: " << writer << endl;
+	cout << "Language: " << lng << endl << endl;
+}
 istream& operator>>(istream& is, Song& song)
 {
 	BaseSound& base=song;
