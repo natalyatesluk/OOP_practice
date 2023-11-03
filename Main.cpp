@@ -1,12 +1,14 @@
 #include "Song.h"
 #include "Audiobook.h"
 #include "Vector.h"
-
+#include <vector>
+#include <algorithm> 
+using namespace std;
 int menu()
 {
 	int choice;
 
-	cout << "\t\t\t1.Add a song" << endl;
+	cout << "\n\t\t\t1.Add a song" << endl;
 	cout << "\t\t\t2.Add a Audiobook" << endl;
 	cout << "Your choice: ";
 	cin >> choice;
@@ -15,7 +17,118 @@ int menu()
 }
 int main()
 {
-	Vector<int> obg1;
+	vector<int> numbers1(10);
+
+	int num;
+	cout << "\t\t\tVector one\n";
+	for (int i = 0; i < numbers1.size(); i++)
+	{
+		num = rand() % 21;
+		if (num % 2 == 0&&num!=0)
+		{
+			numbers1[i] = num;
+			cout << numbers1[i]<<" ";
+		}
+		else
+			--i;
+	}
+	
+	cout << "\n\t\t\tVector two\n";
+	vector<int> numbers2(10);
+	vector<int>::iterator it= numbers2.begin();
+	
+	while (it != numbers2.end())
+	{
+		num = rand() % 21;
+		if (num % 2 > 0)
+		{
+			*it = num;
+			cout << *it << " ";
+			++it;
+		}
+	}
+	cout << endl;
+
+	sort(numbers1.begin(), numbers1.end());
+	sort(numbers2.begin(), numbers2.end());
+
+	cout << "\n\t\t\tVector tree\n";
+	vector<int> numbers3(numbers1.size()+ numbers2.size());
+	merge(numbers1.begin(), numbers1.end(), numbers2.begin(), numbers2.end(), numbers3.begin());
+
+	for (int i = 0; i < numbers3.size(); i++)
+			cout << numbers3[i] << " ";
+
+	vector<BaseSound*> soundVector;
+
+	int choice = 1;
+	int index = 0;
+	while(choice!=0)
+	{
+		choice = menu();
+		switch (choice)
+		{
+		case 0:
+			cout << "\t\t\tTHE END\n";
+			break;
+		case 1:
+			soundVector.push_back(new Song());
+			cin >> *(Song*)soundVector[index];
+			index++;
+			break;
+		case 2:
+			soundVector.push_back(new Audiobook());
+			cin >> *(Audiobook*)soundVector[index];
+			index++;
+			break;
+		default:
+			cout << "There is no such choice\n";
+			break;
+		}
+	}
+	cout << endl;
+	cout << "\n\n\t\t\tSound vector\n\n";
+	for (int i = 0; i < soundVector.size(); i++)
+		soundVector[i]->ShowDate();
+	
+
+
+	vector <BaseSound*> sound1(soundVector);
+	for (int i = 0; i < soundVector.size(); i++) {
+		Song* psong = dynamic_cast<Song*>(soundVector[i]);
+		if (psong == nullptr) {
+			soundVector.erase(soundVector.begin() + i);
+				i--;
+
+		}
+	}
+
+	for (int i = 0; i < sound1.size(); i++) {
+		Audiobook* pAudiobook = dynamic_cast<Audiobook*>(sound1[i]);
+		if (pAudiobook == nullptr) {
+			sound1.erase(sound1.begin() + i);
+				i--;
+		}
+
+	}
+	cout << "\n\n\t\t\tSong vector\n";
+	for (int i = 0; i < soundVector.size(); i++)
+		soundVector[i]->ShowDate();
+	cout << "\n\n\t\t\tAudiobook vector\n";
+	for (int i = 0; i < sound1.size(); i++)
+		sound1[i]->ShowDate();
+}
+	
+
+
+	
+
+
+
+
+	/*
+	pratical work 6
+}Vector<int> obg1;
 	int b=0;
 	int size = obg1.getCapacity() + 3;
 	cout << "\t\t\tFiling an integer vector\n";
@@ -79,9 +192,7 @@ int main()
 	vAudiobook.push_back(&book2);
 	cout << "\n\t\t\tAudiobook vector\n";
 	for (int i = 0; i < vAudiobook.getSize(); i++)
-		cout << *vAudiobook[i] << endl;
-
-}
+		cout << *vAudiobook[i] << endl;*/
 /*
 parctical work 5
 const size_t size = 5;
