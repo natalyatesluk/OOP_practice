@@ -19,6 +19,7 @@ public:
 	}
 	BaseSound(const BaseSound& base);
 	~BaseSound() { id_s--; }
+	int getId() {return id;}
 
 	friend istream& operator>>(istream& is, BaseSound& book);
 	friend ostream& operator<<(ostream& os, BaseSound& book);
