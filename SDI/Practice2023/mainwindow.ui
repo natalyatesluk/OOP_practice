@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>651</width>
+    <height>415</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_namePR">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>610</width>
+      <height>277</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Modern No. 20</family>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>PRACTICAL WORK №9</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_create">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>300</y>
+      <width>540</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Century Gothic</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>CREATE OBJECT</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>651</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menumenu">
+    <property name="title">
+     <string>menu</string>
+    </property>
+    <addaction name="actioncreate"/>
+    <addaction name="actionshow"/>
+    <addaction name="actionexit"/>
+   </widget>
+   <addaction name="menumenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actioncreate">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/png-transparent-add-create-new-plus-sheet-icon.png</normaloff>:/icon/png-transparent-add-create-new-plus-sheet-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>create</string>
+   </property>
+  </action>
+  <action name="actionshow">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/office-reports-icon-outline-office-reports-vector-icon-for-web-design-isolated-on-white-background-700-219898713.jpg</normaloff>:/icon/office-reports-icon-outline-office-reports-vector-icon-for-web-design-isolated-on-white-background-700-219898713.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>show</string>
+   </property>
+  </action>
+  <action name="actionexit">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/png-clipart-power-symbol-computer-icons-international-electrotechnical-commission-exit-icon-hand-sign.png</normaloff>:/icon/png-clipart-power-symbol-computer-icons-international-electrotechnical-commission-exit-icon-hand-sign.png</iconset>
+   </property>
+   <property name="text">
+    <string>exit</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

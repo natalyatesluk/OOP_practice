@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ShowWnd</class>
+ <widget class="QWidget" name="ShowWnd">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>617</width>
+    <height>592</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Show</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="ICON.qrc">
+    <normaloff>:/new/icon/office-reports-icon-outline-office-reports-vector-icon-for-web-design-isolated-on-white-background-700-219898713.jpg</normaloff>:/new/icon/office-reports-icon-outline-office-reports-vector-icon-for-web-design-isolated-on-white-background-700-219898713.jpg</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label_id">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="show_id">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_name">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Name</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="show_name">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_gener">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Gener</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="show_gener">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_artist">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Artist</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="show_artist">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_album">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Album</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="show_album">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_year">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Relase year</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="show_year">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_writer">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Writer</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="show_writer">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_lng">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Language</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="show_lng">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_time">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Duration</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="show_duration">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pB_close">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>22</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>CLOSE</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="ICON.qrc"/>
+ </resources>
+ <connections/>
+</ui>

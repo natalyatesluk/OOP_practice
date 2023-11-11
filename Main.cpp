@@ -1,15 +1,20 @@
 #include "Song.h"
 #include "Audiobook.h"
+<<<<<<< HEAD
 #include <map>
 #include <vector>
 #include <algorithm> 
 #include <list>
 using namespace std;
+=======
+#include "Vector.h"
+
+>>>>>>> parent of 5b0cfae (done practical work №7)
 int menu()
 {
 	int choice;
 
-	cout << "\n\t\t\t1.Add a song" << endl;
+	cout << "\t\t\t1.Add a song" << endl;
 	cout << "\t\t\t2.Add a Audiobook" << endl;
 	cout << "Your choice: ";
 	cin >> choice;
@@ -18,6 +23,7 @@ int menu()
 }
 int main()
 {
+<<<<<<< HEAD
 		list<int> numbers1(10);
 		int num;
 		cout << "\t\t\tList one\n";
@@ -203,6 +209,9 @@ int main()
 	/*
 	pratical work 6
 }Vector<int> obg1;
+=======
+	Vector<int> obg1;
+>>>>>>> parent of 5b0cfae (done practical work №7)
 	int b=0;
 	int size = obg1.getCapacity() + 3;
 	cout << "\t\t\tFiling an integer vector\n";
@@ -266,7 +275,9 @@ int main()
 	vAudiobook.push_back(&book2);
 	cout << "\n\t\t\tAudiobook vector\n";
 	for (int i = 0; i < vAudiobook.getSize(); i++)
-		cout << *vAudiobook[i] << endl;*/
+		cout << *vAudiobook[i] << endl;
+
+}
 /*
 parctical work 5
 const size_t size = 5;

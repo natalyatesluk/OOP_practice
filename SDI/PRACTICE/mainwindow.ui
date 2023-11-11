@@ -6,22 +6,16 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>558</width>
-    <height>361</height>
+    <width>760</width>
+    <height>465</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>PRACTICE</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="RES.qrc">
-    <normaloff>:/icon/icon.png</normaloff>:/icon/icon.png</iconset>
-  </property>
-  <property name="iconSize">
-   <size>
-    <width>15</width>
-    <height>15</height>
-   </size>
+   <iconset resource="ICON.qrc">
+    <normaloff>:/new/icon/icon.png</normaloff>:/new/icon/icon.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
@@ -30,26 +24,23 @@
       <property name="font">
        <font>
         <family>Modern No. 20</family>
-        <pointsize>28</pointsize>
+        <pointsize>26</pointsize>
        </font>
-      </property>
-      <property name="focusPolicy">
-       <enum>Qt::NoFocus</enum>
-      </property>
-      <property name="layoutDirection">
-       <enum>Qt::LeftToRight</enum>
       </property>
       <property name="text">
        <string>PRACTICAL WORK №9</string>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
      </widget>
     </item>
     <item row="1" column="0">
-     <widget class="QPushButton" name="Button_create">
+     <widget class="QPushButton" name="pB_create">
       <property name="font">
        <font>
         <family>Century Gothic</family>
-        <pointsize>12</pointsize>
+        <pointsize>18</pointsize>
         <bold>true</bold>
        </font>
       </property>
@@ -65,7 +56,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>558</width>
+     <width>760</width>
      <height>21</height>
     </rect>
    </property>
@@ -73,26 +64,26 @@
     <property name="title">
      <string>menu</string>
     </property>
-    <addaction name="actioncreat_object"/>
+    <addaction name="actioncreat"/>
     <addaction name="actionshow"/>
     <addaction name="actionexit"/>
    </widget>
    <addaction name="menumenu"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
-  <action name="actioncreat_object">
+  <action name="actioncreat">
    <property name="icon">
-    <iconset resource="RES.qrc">
-     <normaloff>:/icon/png-transparent-add-create-new-plus-sheet-icon.png</normaloff>:/icon/png-transparent-add-create-new-plus-sheet-icon.png</iconset>
+    <iconset resource="ICON.qrc">
+     <normaloff>:/new/icon/png-transparent-add-create-new-plus-sheet-icon.png</normaloff>:/new/icon/png-transparent-add-create-new-plus-sheet-icon.png</iconset>
    </property>
    <property name="text">
-    <string>create object</string>
+    <string>creat</string>
    </property>
   </action>
   <action name="actionshow">
    <property name="icon">
-    <iconset resource="RES.qrc">
-     <normaloff>:/icon/office-reports-icon-outline-office-reports-vector-icon-for-web-design-isolated-on-white-background-700-219898713.jpg</normaloff>:/icon/office-reports-icon-outline-office-reports-vector-icon-for-web-design-isolated-on-white-background-700-219898713.jpg</iconset>
+    <iconset resource="ICON.qrc">
+     <normaloff>:/new/icon/office-reports-icon-outline-office-reports-vector-icon-for-web-design-isolated-on-white-background-700-219898713.jpg</normaloff>:/new/icon/office-reports-icon-outline-office-reports-vector-icon-for-web-design-isolated-on-white-background-700-219898713.jpg</iconset>
    </property>
    <property name="text">
     <string>show</string>
@@ -100,8 +91,8 @@
   </action>
   <action name="actionexit">
    <property name="icon">
-    <iconset resource="RES.qrc">
-     <normaloff>:/icon/png-clipart-power-symbol-computer-icons-international-electrotechnical-commission-exit-icon-hand-sign.png</normaloff>:/icon/png-clipart-power-symbol-computer-icons-international-electrotechnical-commission-exit-icon-hand-sign.png</iconset>
+    <iconset resource="ICON.qrc">
+     <normaloff>:/new/icon/png-clipart-power-symbol-computer-icons-international-electrotechnical-commission-exit-icon-hand-sign.png</normaloff>:/new/icon/png-clipart-power-symbol-computer-icons-international-electrotechnical-commission-exit-icon-hand-sign.png</iconset>
    </property>
    <property name="text">
     <string>exit</string>
@@ -109,7 +100,7 @@
   </action>
  </widget>
  <resources>
-  <include location="RES.qrc"/>
+  <include location="ICON.qrc"/>
  </resources>
  <connections/>
 </ui>

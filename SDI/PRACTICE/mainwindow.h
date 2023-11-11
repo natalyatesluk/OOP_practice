@@ -3,8 +3,8 @@
 
 #include <QMainWindow>
 #include <song.h>
-#include <create.h>
-#include <show.h>
+#include <createwnd.h>
+#include <showwnd.h>
 #include <QIcon>
 
 QT_BEGIN_NAMESPACE
@@ -18,18 +18,22 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-
+    void showMain();
+public slots:
+    void CreateSong (Song* song);
 private slots:
-    void on_actioncreat_object_triggered();
-    void on_actionexit_triggered();
+    void on_pB_create_clicked();
+
+    void on_actioncreat_triggered();
+
     void on_actionshow_triggered();
 
-    void on_Button_create_clicked();
-
+    void on_actionexit_triggered();
 
 private:
     Ui::MainWindow *ui;
-    Create *createWindow = new Create();
-    Show *showWindow = new Show();
+    Song *song;
+    CreateWnd *createWindow;
+    ShowWnd *showWindow;
 };
 #endif // MAINWINDOW_H

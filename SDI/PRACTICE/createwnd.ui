@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CreateWnd</class>
+ <widget class="QWidget" name="CreateWnd">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>624</width>
+    <height>382</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Create</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="ICON.qrc">
+    <normaloff>:/new/icon/png-transparent-add-create-new-plus-sheet-icon.png</normaloff>:/new/icon/png-transparent-add-create-new-plus-sheet-icon.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" colspan="2">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_id">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QLineEdit" name="lineEdit_id">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+      </font>
+     </property>
+     <property name="tabletTracking">
+      <bool>false</bool>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="cursorPosition">
+      <number>0</number>
+     </property>
+     <property name="placeholderText">
+      <string>Enter id...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_name">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Name</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QLineEdit" name="lineEdit_name">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Enter name...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_gener">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Gener</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <widget class="QLineEdit" name="lineEdit_gener">
+     <property name="placeholderText">
+      <string>Enter gener...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_artist">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Artist</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2">
+    <widget class="QLineEdit" name="lineEdit_artist">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Enter artist...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="label_album">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Album</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2">
+    <widget class="QLineEdit" name="lineEdit_album">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Enter album...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0" colspan="2">
+    <widget class="QLabel" name="label_year">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Relase year</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="2">
+    <widget class="QLineEdit" name="lineEdit_year">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Enter relase yaer...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="label_writer">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Writer</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="2">
+    <widget class="QLineEdit" name="lineEdit_writer">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Enter writer...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLabel" name="label_lng">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Language</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="2">
+    <widget class="QLineEdit" name="lineEdit_lng">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Enter language...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="label_time">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Duration</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="2">
+    <widget class="QLineEdit" name="lineEdit_time">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Enter duration...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="1" colspan="2">
+    <widget class="QPushButton" name="Button_song">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>22</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Add a song</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="2">
+    <widget class="QPushButton" name="pushButtonClose">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>CLOSE</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="ICON.qrc"/>
+ </resources>
+ <connections/>
+</ui>

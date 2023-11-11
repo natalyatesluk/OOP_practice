@@ -9,22 +9,22 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    create.cpp \
+    createwnd.cpp \
     main.cpp \
     mainwindow.cpp \
-    show.cpp \
+    showwnd.cpp \
     song.cpp
 
 HEADERS += \
-    create.h \
+    createwnd.h \
     mainwindow.h \
-    show.h \
+    showwnd.h \
     song.h
 
 FORMS += \
-    create.ui \
+    createwnd.ui \
     mainwindow.ui \
-    show.ui
+    showwnd.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -32,4 +32,4 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
-    RES.qrc
+    ICON.qrc
