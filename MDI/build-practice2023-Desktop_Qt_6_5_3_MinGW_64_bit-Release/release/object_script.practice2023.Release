@@ -1,0 +1,15 @@
+release/addbook.o
+release/addsong.o
+release/audiobook.o
+release/basesound.o
+release/main.o
+release/mainwindow.o
+release/showbook.o
+release/showsong.o
+release/song.o
+release/qrc_ICONS.o
+release/moc_addbook.o
+release/moc_addsong.o
+release/moc_mainwindow.o
+release/moc_showbook.o
+release/moc_showsong.o

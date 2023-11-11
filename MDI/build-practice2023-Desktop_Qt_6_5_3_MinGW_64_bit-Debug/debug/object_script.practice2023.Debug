@@ -1,0 +1,15 @@
+debug/addbook.o
+debug/addsong.o
+debug/audiobook.o
+debug/basesound.o
+debug/main.o
+debug/mainwindow.o
+debug/showbook.o
+debug/showsong.o
+debug/song.o
+debug/qrc_ICONS.o
+debug/moc_addbook.o
+debug/moc_addsong.o
+debug/moc_mainwindow.o
+debug/moc_showbook.o
+debug/moc_showsong.o
