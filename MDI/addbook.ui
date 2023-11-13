@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddBook</class>
+ <widget class="QWidget" name="AddBook">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>620</width>
+    <height>438</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Add book</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="ICONS.qrc">
+    <normaloff>:/new/prefix1/office-reports-icon-outline-office-reports-vector-icon-for-web-design-isolated-on-white-background-700-219898713.jpg</normaloff>:/new/prefix1/office-reports-icon-outline-office-reports-vector-icon-for-web-design-isolated-on-white-background-700-219898713.jpg</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_name">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Name</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="lineEdit_name">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Enter name...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_artist">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Artist</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="lineEdit_artist">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Enter artist...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_pbl">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Publisher</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="lineEdit_pbl">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Enter publisher...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_year">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Relase year</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLineEdit" name="lineEdit_year">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Enter relase yaer...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_format">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Format</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLineEdit" name="lineEdit_format">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Enter format...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="label_price">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Price</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QLineEdit" name="lineEdit_price">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Enter price...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="label_time">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Duration</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QLineEdit" name="lineEdit_time">
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Enter duration...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0" colspan="2">
+    <widget class="QPushButton" name="Button_book">
+     <property name="font">
+      <font>
+       <family>Modern No. 20</family>
+       <pointsize>22</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string>Add an audiobook</string>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="ICONS.qrc"/>
+ </resources>
+ <connections/>
+</ui>

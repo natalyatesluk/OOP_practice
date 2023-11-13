@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SongShow</class>
+ <widget class="QWidget" name="SongShow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Song</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="ICONS.qrc">
+    <normaloff>:/new/prefix1/office-reports-icon-outline-office-reports-vector-icon-for-web-design-isolated-on-white-background-700-219898713.jpg</normaloff>:/new/prefix1/office-reports-icon-outline-office-reports-vector-icon-for-web-design-isolated-on-white-background-700-219898713.jpg</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QTableView" name="tableSong"/>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="ICONS.qrc"/>
+ </resources>
+ <connections/>
+</ui>

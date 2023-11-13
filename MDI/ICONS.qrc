@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>icon.png</file>
+        <file>office-reports-icon-outline-office-reports-vector-icon-for-web-design-isolated-on-white-background-700-219898713.jpg</file>
+        <file>png-clipart-power-symbol-computer-icons-international-electrotechnical-commission-exit-icon-hand-sign.png</file>
+        <file>png-transparent-add-create-new-plus-sheet-icon.png</file>
+    </qresource>
+</RCC>
