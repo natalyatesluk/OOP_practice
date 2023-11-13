@@ -1,0 +1,16 @@
+release/addbook.o
+release/addsong.o
+release/audiobook.o
+release/basesound.o
+release/bookshow.o
+release/main.o
+release/mainwindow.o
+release/song.o
+release/songshow.o
+release/sqlitedbmanager.o
+release/qrc_ICONS.o
+release/moc_addbook.o
+release/moc_addsong.o
+release/moc_bookshow.o
+release/moc_mainwindow.o
+release/moc_songshow.o

@@ -1,0 +1,16 @@
+debug/addbook.o
+debug/addsong.o
+debug/audiobook.o
+debug/basesound.o
+debug/bookshow.o
+debug/main.o
+debug/mainwindow.o
+debug/song.o
+debug/songshow.o
+debug/sqlitedbmanager.o
+debug/qrc_ICONS.o
+debug/moc_addbook.o
+debug/moc_addsong.o
+debug/moc_bookshow.o
+debug/moc_mainwindow.o
+debug/moc_songshow.o
