@@ -8,6 +8,8 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    main= QSqlDatabase::addDatabase("QSQLITE");
+    main.setDatabaseName("./base");
 
 }
 

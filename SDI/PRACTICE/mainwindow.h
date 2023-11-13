@@ -6,6 +6,7 @@
 #include <createwnd.h>
 #include <showwnd.h>
 #include <QIcon>
+#include <QSqlDatabase>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -18,6 +19,7 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    QSqlDatabase main;
     void showMain();
 public slots:
     void CreateSong (Song* song);

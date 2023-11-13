@@ -10,11 +10,10 @@
 #define UI_SHOWSONG_H
 
 #include <QtCore/QVariant>
-#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QGridLayout>
-#include <QtWidgets/QListWidget>
-#include <QtWidgets/QPushButton>
+#include <QtWidgets/QHeaderView>
+#include <QtWidgets/QTableView>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -23,32 +22,19 @@ class Ui_ShowSong
 {
 public:
     QGridLayout *gridLayout;
-    QListWidget *lW_show;
-    QPushButton *pB_choose;
+    QTableView *tableView;
 
     void setupUi(QWidget *ShowSong)
     {
         if (ShowSong->objectName().isEmpty())
             ShowSong->setObjectName("ShowSong");
         ShowSong->resize(400, 300);
-        QIcon icon;
-        icon.addFile(QString::fromUtf8(":/new/prefix1/office-reports-icon-outline-office-reports-vector-icon-for-web-design-isolated-on-white-background-700-219898713.jpg"), QSize(), QIcon::Normal, QIcon::Off);
-        ShowSong->setWindowIcon(icon);
         gridLayout = new QGridLayout(ShowSong);
         gridLayout->setObjectName("gridLayout");
-        lW_show = new QListWidget(ShowSong);
-        lW_show->setObjectName("lW_show");
+        tableView = new QTableView(ShowSong);
+        tableView->setObjectName("tableView");
 
-        gridLayout->addWidget(lW_show, 0, 0, 1, 1);
-
-        pB_choose = new QPushButton(ShowSong);
-        pB_choose->setObjectName("pB_choose");
-        QFont font;
-        font.setFamilies({QString::fromUtf8("Modern No. 20")});
-        font.setPointSize(20);
-        pB_choose->setFont(font);
-
-        gridLayout->addWidget(pB_choose, 1, 0, 1, 1);
+        gridLayout->addWidget(tableView, 0, 0, 1, 1);
 
 
         retranslateUi(ShowSong);
@@ -58,8 +44,7 @@ public:
 
     void retranslateUi(QWidget *ShowSong)
     {
-        ShowSong->setWindowTitle(QCoreApplication::translate("ShowSong", "Song show", nullptr));
-        pB_choose->setText(QCoreApplication::translate("ShowSong", "Select", nullptr));
+        ShowSong->setWindowTitle(QCoreApplication::translate("ShowSong", "Form", nullptr));
     } // retranslateUi
 
 };

@@ -7,6 +7,7 @@ release/mainwindow.o
 release/showbook.o
 release/showsong.o
 release/song.o
+release/sqlitedbmanager.o
 release/qrc_ICONS.o
 release/moc_addbook.o
 release/moc_addsong.o
