@@ -27,7 +27,7 @@ class Ui_MainWindow
 public:
     QWidget *centralwidget;
     QGridLayout *gridLayout;
-    QPushButton *pushButton_4;
+    QPushButton *pB_audiobook;
     QPushButton *pb_ShowSong;
     QLabel *label_que;
     QPushButton *pbAddBook;
@@ -47,14 +47,14 @@ public:
         centralwidget->setObjectName("centralwidget");
         gridLayout = new QGridLayout(centralwidget);
         gridLayout->setObjectName("gridLayout");
-        pushButton_4 = new QPushButton(centralwidget);
-        pushButton_4->setObjectName("pushButton_4");
+        pB_audiobook = new QPushButton(centralwidget);
+        pB_audiobook->setObjectName("pB_audiobook");
         QFont font;
         font.setFamilies({QString::fromUtf8("Modern No. 20")});
         font.setPointSize(20);
-        pushButton_4->setFont(font);
+        pB_audiobook->setFont(font);
 
-        gridLayout->addWidget(pushButton_4, 3, 1, 1, 1);
+        gridLayout->addWidget(pB_audiobook, 3, 1, 1, 1);
 
         pb_ShowSong = new QPushButton(centralwidget);
         pb_ShowSong->setObjectName("pb_ShowSong");
@@ -103,7 +103,7 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "PRACTICE", nullptr));
-        pushButton_4->setText(QCoreApplication::translate("MainWindow", "Show audiobook", nullptr));
+        pB_audiobook->setText(QCoreApplication::translate("MainWindow", "Show audiobook", nullptr));
         pb_ShowSong->setText(QCoreApplication::translate("MainWindow", "Show song", nullptr));
         label_que->setText(QCoreApplication::translate("MainWindow", "What do you want?", nullptr));
         pbAddBook->setText(QCoreApplication::translate("MainWindow", "Add audiobook", nullptr));

@@ -1,0 +1,2 @@
+ - Error inserting into Book
+UNIQUE constraint failed: Book.id Unable to fetch row

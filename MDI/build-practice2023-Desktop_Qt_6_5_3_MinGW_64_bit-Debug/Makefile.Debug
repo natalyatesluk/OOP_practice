@@ -650,6 +650,23 @@ debug/moc_bookshow.cpp: ../practice2023/bookshow.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.5.3/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qnativeinterface.h \
+		C:/Qt/6.5.3/mingw_64/include/QtWidgets/QDialog \
+		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qdialog.h \
+		../practice2023/sqlitedbmanager.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlDatabase \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqldatabase.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsqlglobal.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsql-config.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsqlexports.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlQuery \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqlquery.h \
+		../practice2023/DBManage.h \
+		../practice2023/song.h \
+		../practice2023/basesound.h \
+		../practice2023/audiobook.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.5.3/mingw_64/bin/moc.exe
 	C:\Qt\6.5.3\mingw_64\bin\moc.exe $(DEFINES) --include D:/QtProjects/MDI/build-practice2023-Desktop_Qt_6_5_3_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.5.3/mingw_64/mkspecs/win32-g++ -ID:/QtProjects/MDI/practice2023 -IC:/Qt/6.5.3/mingw_64/include -IC:/Qt/6.5.3/mingw_64/include/QtWidgets -IC:/Qt/6.5.3/mingw_64/include/QtGui -IC:/Qt/6.5.3/mingw_64/include/QtSql -IC:/Qt/6.5.3/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\practice2023\bookshow.h -o debug\moc_bookshow.cpp
@@ -825,16 +842,19 @@ debug/moc_mainwindow.cpp: ../practice2023/mainwindow.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qvector.h \
 		../practice2023/addbook.h \
 		../practice2023/songshow.h \
-		../practice2023/bookshow.h \
+		../practice2023/sqlitedbmanager.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qfiledevice.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlDatabase \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqldatabase.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsqlglobal.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsql-config.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsqlexports.h \
-		../practice2023/sqlitedbmanager.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlQuery \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqlquery.h \
 		../practice2023/DBManage.h \
+		../practice2023/bookshow.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.5.3/mingw_64/bin/moc.exe
 	C:\Qt\6.5.3\mingw_64\bin\moc.exe $(DEFINES) --include D:/QtProjects/MDI/build-practice2023-Desktop_Qt_6_5_3_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.5.3/mingw_64/mkspecs/win32-g++ -ID:/QtProjects/MDI/practice2023 -IC:/Qt/6.5.3/mingw_64/include -IC:/Qt/6.5.3/mingw_64/include/QtWidgets -IC:/Qt/6.5.3/mingw_64/include/QtGui -IC:/Qt/6.5.3/mingw_64/include/QtSql -IC:/Qt/6.5.3/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\practice2023\mainwindow.h -o debug\moc_mainwindow.cpp
@@ -997,6 +1017,23 @@ debug/moc_songshow.cpp: ../practice2023/songshow.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.5.3/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qnativeinterface.h \
+		C:/Qt/6.5.3/mingw_64/include/QtWidgets/QDialog \
+		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qdialog.h \
+		../practice2023/sqlitedbmanager.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlDatabase \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqldatabase.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsqlglobal.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsql-config.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsqlexports.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlQuery \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqlquery.h \
+		../practice2023/DBManage.h \
+		../practice2023/song.h \
+		../practice2023/basesound.h \
+		../practice2023/audiobook.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.5.3/mingw_64/bin/moc.exe
 	C:\Qt\6.5.3\mingw_64\bin\moc.exe $(DEFINES) --include D:/QtProjects/MDI/build-practice2023-Desktop_Qt_6_5_3_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.5.3/mingw_64/mkspecs/win32-g++ -ID:/QtProjects/MDI/practice2023 -IC:/Qt/6.5.3/mingw_64/include -IC:/Qt/6.5.3/mingw_64/include/QtWidgets -IC:/Qt/6.5.3/mingw_64/include/QtGui -IC:/Qt/6.5.3/mingw_64/include/QtSql -IC:/Qt/6.5.3/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\practice2023\songshow.h -o debug\moc_songshow.cpp
@@ -1467,16 +1504,19 @@ debug/addsong.o: ../practice2023/addsong.cpp ../practice2023/addsong.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qvector.h \
 		../practice2023/addbook.h \
 		../practice2023/songshow.h \
-		../practice2023/bookshow.h \
+		../practice2023/sqlitedbmanager.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qfiledevice.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlDatabase \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqldatabase.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsqlglobal.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsql-config.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsqlexports.h \
-		../practice2023/sqlitedbmanager.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlQuery \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqlquery.h \
-		../practice2023/DBManage.h
+		../practice2023/DBManage.h \
+		../practice2023/bookshow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\addsong.o ..\practice2023\addsong.cpp
 
 debug/audiobook.o: ../practice2023/audiobook.cpp ../practice2023/audiobook.h \
@@ -1644,7 +1684,28 @@ debug/bookshow.o: ../practice2023/bookshow.cpp ../practice2023/bookshow.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.5.3/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_bookshow.h
+		C:/Qt/6.5.3/mingw_64/include/QtWidgets/QDialog \
+		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qdialog.h \
+		../practice2023/sqlitedbmanager.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlDatabase \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqldatabase.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsqlglobal.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsql-config.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsqlexports.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlQuery \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqlquery.h \
+		../practice2023/DBManage.h \
+		../practice2023/song.h \
+		../practice2023/basesound.h \
+		../practice2023/audiobook.h \
+		ui_bookshow.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlTableModel \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqltablemodel.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqlquerymodel.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qabstractitemmodel.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\bookshow.o ..\practice2023\bookshow.cpp
 
 debug/main.o: ../practice2023/main.cpp ../practice2023/mainwindow.h \
@@ -1818,16 +1879,19 @@ debug/main.o: ../practice2023/main.cpp ../practice2023/mainwindow.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qvector.h \
 		../practice2023/addbook.h \
 		../practice2023/songshow.h \
-		../practice2023/bookshow.h \
+		../practice2023/sqlitedbmanager.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qfiledevice.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlDatabase \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqldatabase.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsqlglobal.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsql-config.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsqlexports.h \
-		../practice2023/sqlitedbmanager.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlQuery \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqlquery.h \
 		../practice2023/DBManage.h \
+		../practice2023/bookshow.h \
 		C:/Qt/6.5.3/mingw_64/include/QtWidgets/QApplication \
 		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qapplication.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qcoreapplication.h \
@@ -2023,16 +2087,19 @@ debug/mainwindow.o: ../practice2023/mainwindow.cpp ../practice2023/mainwindow.h 
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qvector.h \
 		../practice2023/addbook.h \
 		../practice2023/songshow.h \
-		../practice2023/bookshow.h \
+		../practice2023/sqlitedbmanager.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qfiledevice.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlDatabase \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqldatabase.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsqlglobal.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsql-config.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsqlexports.h \
-		../practice2023/sqlitedbmanager.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlQuery \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqlquery.h \
 		../practice2023/DBManage.h \
+		../practice2023/bookshow.h \
 		../practice2023/ui_mainwindow.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/QVariant \
 		C:/Qt/6.5.3/mingw_64/include/QtGui/QIcon \
@@ -2240,61 +2307,35 @@ debug/songshow.o: ../practice2023/songshow.cpp ../practice2023/songshow.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.5.3/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_songshow.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/QVariant \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/QApplication \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qapplication.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qcoreapplication.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qeventloop.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qfuture.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qfutureinterface.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qmutex.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qtsan_impl.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qresultstore.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qfuture_impl.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qthreadpool.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qthread.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qdeadlinetimer.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qelapsedtimer.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qrunnable.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qexception.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qpromise.h \
-		C:/Qt/6.5.3/mingw_64/include/QtGui/qguiapplication.h \
-		C:/Qt/6.5.3/mingw_64/include/QtGui/qinputmethod.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qlocale.h \
-		C:/Qt/6.5.3/mingw_64/include/QtGui/qguiapplication_platform.h \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGridLayout \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qgridlayout.h \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qlayout.h \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qlayoutitem.h \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qboxlayout.h \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/QHeaderView \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qheaderview.h \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qabstractitemview.h \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qframe.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qabstractitemmodel.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qitemselectionmodel.h \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qstyleoption.h \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qabstractspinbox.h \
-		C:/Qt/6.5.3/mingw_64/include/QtGui/qvalidator.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qregularexpression.h \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qslider.h \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qabstractslider.h \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qstyle.h \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qtabbar.h \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qtabwidget.h \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qrubberband.h \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/QTableView \
-		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qtableview.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\songshow.o ..\practice2023\songshow.cpp
-
-debug/sqlitedbmanager.o: ../practice2023/sqlitedbmanager.cpp ../practice2023/sqlitedbmanager.h \
+		C:/Qt/6.5.3/mingw_64/include/QtWidgets/QDialog \
+		C:/Qt/6.5.3/mingw_64/include/QtWidgets/qdialog.h \
+		../practice2023/sqlitedbmanager.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qfiledevice.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlDatabase \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqldatabase.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsqlglobal.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsql-config.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsqlexports.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlQuery \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqlquery.h \
+		../practice2023/DBManage.h \
+		../practice2023/song.h \
+		../practice2023/basesound.h \
+		../practice2023/audiobook.h \
+		ui_songshow.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlTableModel \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqltablemodel.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqlquerymodel.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qabstractitemmodel.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\songshow.o ..\practice2023\songshow.cpp
+
+debug/sqlitedbmanager.o: ../practice2023/sqlitedbmanager.cpp ../practice2023/sqlitedbmanager.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/QFile \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qiodevice.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qglobal.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qtversionchecks.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qconfig.h \
@@ -2337,15 +2378,17 @@ debug/sqlitedbmanager.o: ../practice2023/sqlitedbmanager.cpp ../practice2023/sql
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qtresource.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qttranslation.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qversiontagging.h \
-		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsql-config.h \
-		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsqlexports.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qiodevicebase.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qobjectdefs.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qnamespace.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qtmetamacros.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qobjectdefs_impl.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qstring.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qchar.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qstringview.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qbytearray.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qrefcount.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qnamespace.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qtmetamacros.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qarraydata.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qpair.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qarraydatapointer.h \
@@ -2362,25 +2405,35 @@ debug/sqlitedbmanager.o: ../practice2023/sqlitedbmanager.cpp ../practice2023/sql
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qutf8stringview.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qstringtokenizer.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qstringbuilder.h \
-		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlQuery \
-		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqlquery.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qvariant.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qlist.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qhashfunctions.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qiterator.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qbytearraylist.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qstringlist.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qalgorithms.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qstringmatcher.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qcoreevent.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qscopedpointer.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qmetatype.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qcompare.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qdatastream.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qscopedpointer.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qiodevicebase.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qfloat16.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qhashfunctions.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qmath.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qalgorithms.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qiterable.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qmetacontainer.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qcontainerinfo.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qtaggedpointer.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qobjectdefs.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qobjectdefs_impl.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qscopeguard.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qobject_impl.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qbindingstorage.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlDatabase \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqldatabase.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsqlglobal.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsql-config.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qtsqlexports.h \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlQuery \
+		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqlquery.h \
+		C:/Qt/6.5.3/mingw_64/include/QtCore/qvariant.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qdebug.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qtextstream.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qstringconverter_base.h \
@@ -2388,29 +2441,16 @@ debug/sqlitedbmanager.o: ../practice2023/sqlitedbmanager.cpp ../practice2023/sql
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qsharedpointer.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qshareddata.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qsharedpointer_impl.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qlist.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qiterator.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qbytearraylist.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qstringlist.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qstringmatcher.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qmap.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qshareddata_impl.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qset.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qhash.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/qvarlengtharray.h \
 		C:/Qt/6.5.3/mingw_64/include/QtCore/q20memory.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qcoreevent.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qobject_impl.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qbindingstorage.h \
 		../practice2023/DBManage.h \
 		../practice2023/song.h \
 		../practice2023/basesound.h \
 		../practice2023/audiobook.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/QFile \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qfile.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qfiledevice.h \
-		C:/Qt/6.5.3/mingw_64/include/QtCore/qiodevice.h \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/QSqlError \
 		C:/Qt/6.5.3/mingw_64/include/QtSql/qsqlerror.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\sqlitedbmanager.o ..\practice2023\sqlitedbmanager.cpp
